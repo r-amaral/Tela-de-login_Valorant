@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Login</title>
+    <link rel='stylesheet' href="style.css">
+</head>
+
+<body>
+    <main> 
+        <section class='login'>
+           <h1>Fazer Login</h1>
+            <label for="usuario" class='label-login'>
+                <span class='span-sem-foco' id="span-usuario">Nome de Usúario</span>
+                <input type="text" id="usuario" class="input-login">
+            </label>
+            <label for="senha" class='label-login'>
+                <span class='span-sem-foco' id="span-senha">Senha do Usúario</span>
+                <input type="password" id="senha" class="input-login">
+            </label>
+
+            <button class='logar'>Logar</button>
+
+            <div class="grupo-botoes-login">
+                <button class='botao-login facebook'>
+                    <div class='img-facebook'></div>
+                </button>
+                <button class='botao-login google'>
+                    <div class="img-google"></div>
+                </button>
+                <button class='botao-login apple' id='apple'>
+                    <div class='img-apple'></div>
+                </button>
+            </div>
+
+            <label for="manter-login" class='label-manter-login'>
+                <input class='input-manter-login' type="checkbox" id="manter-login">
+                <span class='span-manter-login'>Manter Login</span>
+            </label>
+
+            <div class="criar-conta">
+                <p>Não tem uma conta?</p>
+                <a href="">Criar Conta</a>
+            </div>
+
+        </section>
+
+        <section class='img-principal'></section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
