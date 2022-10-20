@@ -1,6 +1,17 @@
-# Tela-de-login_Valorant
-Tela de login responsiva do jogo valorant
+# Login Valorant
+
+### Valorant game responsive login screen
 
 <div align='center'>
-<img src="https://user-images.githubusercontent.com/105545187/176936157-d48c7126-d9bd-4404-ad29-1a1144eeb727.png">
+<img src="https://user-images.githubusercontent.com/105545187/197065616-09a34ee8-0d6a-4037-a8a4-31c3017ecb70.gif">
 </div>
+
+# Technologies Used:
+
+- HTML
+- CSS
+- JavaScript
+
+# Deploy
+
+https://tela-de-login-valorant.vercel.app/
